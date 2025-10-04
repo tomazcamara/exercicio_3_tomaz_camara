@@ -1,0 +1,5 @@
+body { margin: 0; font-family: Arial, sans-serif; display: flex; flex-direction: column; }
+header, footer { background: #7fff00; padding: 20px; text-align: center; }
+main { display: flex; flex: 1; }
+aside { background: #0000cd; padding: 20px; color: #fff; width: 200px; text-align: center; }
+.content { background: #87eaf2; flex: 1; padding: 50px; text-align: center; }
