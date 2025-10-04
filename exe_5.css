@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 40px;
+}
+
+img {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    height: 80px;
+    width: 80px;
+}
+
+.container-1,
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 16px;
+    font-size: 14px;
+
+}
+
+.boston,
+.madrid,
+.spanish,
+.bike-card,
+.boat-card,
+.drive-card {
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    border-radius: 10px;
+    width: 260px;
+    height: 180px;
+
+}
+
+.boston,
+.madrid,
+.spanish {
+    color: cadetblue;
+    border: 2px solid cadetblue;
+}
+
+.bike-card,
+.boat-card,
+.drive-card {
+    border: 2px solid orange;
+    color: orange;
+}
+
+.horario-boston,
+.horario-madrid,
+.translate,
+.bike,
+.boat,
+.drive {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 30px;
+    width: 100%;
+    padding-top: 8px;
+}
+
+
+.horario-boston,
+.horario-madrid,
+.translate {
+    border-bottom: 2px solid cadetblue;
+    color: darkcyan;
+    background-color: hsla(177, 100%, 75%, 0.288);
+}
+
+.bike,
+.boat,
+.drive {
+    border-bottom: 2px solid rgb(255, 166, 0);
+    color: orange;
+    background-color: rgb(255, 237, 205);
+}
+
+/* Estilo linha amarela (inferior) */
+.card-yellow {
+  background-color: #fff4dc;
+  border-color: #ffcc80;
+  color: #ff8c00;
+}
+
+/* Títulos */
+.card h3 {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Descrições */
+.card p {
+  margin: 0;
+  font-size: 1em;
+}
+
+
