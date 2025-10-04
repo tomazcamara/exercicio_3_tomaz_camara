@@ -1,0 +1,33 @@
+/* Container geral */
+.container {
+  border: 2px dotted blue;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Estilo para os blocos div */
+.box {
+  border: 2px dotted blue;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+/* Estilo para o article */
+article {
+  border: 2px solid red;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+/* Título dentro do article */
+article h2 {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+/* Parágrafo dentro do article */
+article p {
+  border: 1px solid red;
+  padding: 10px;
+  margin-top: 10px;
+}
