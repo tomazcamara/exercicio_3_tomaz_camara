@@ -1,0 +1,45 @@
+body {
+  background-color: #c0c0c0; /* fundo cinza */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 300px;
+  margin: 20px auto;
+  background-color: #f0f0f0;
+  border: 1px solid #999;
+}
+
+.header {
+  padding: 10px;
+  background-color: #dddddd;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.ph-bar {
+  height: 25px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: white;
+  font-size: 14px;
+}
+
+/* Cores da escala de pH */
+.ph-14 { background-color: #007acc; }
+.ph-13 { background-color: #0088cc; }
+.ph-12 { background-color: #0099cc; }
+.ph-11 { background-color: #00aacc; }
+.ph-10 { background-color: #00bbcc; }
+.ph-9  { background-color: #33cccc; }
+.ph-8  { background-color: #66cccc; }
+.ph-7  { background-color: #00cc99; color: black; }
+.ph-6  { background-color: #ff99cc; }
+.ph-5  { background-color: #ff80b3; }
+.ph-4  { background-color: #ff6699; }
+.ph-3  { background-color: #ff4d88; }
+.ph-2  { background-color: #ff3366; }
+.ph-1  { background-color: #ff1a4d; }
+.ph-0  { background-color: #ff0033; }
